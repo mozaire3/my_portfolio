@@ -7,6 +7,7 @@ import {
   typescript,
   html,
   css,
+  flask,
   reactjs,
   redux,
   tailwind,
@@ -64,10 +65,10 @@ const technologies = [
     name: "HTML 5",
     icon: html,
   },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "JavaScript",
     icon: javascript,
@@ -79,10 +80,6 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -97,8 +94,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Flask",
+    icon: flask,
   },
   {
     name: "git",
