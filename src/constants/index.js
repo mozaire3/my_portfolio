@@ -9,7 +9,6 @@ import {
   css,
   flask,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
@@ -61,42 +60,18 @@ const services = [
 ];
 
 const technologies = [
-  
-  // {
-  //   name: "CSS 3",
-  //   icon: css,
-  // },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Flask",
-    icon: flask,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
