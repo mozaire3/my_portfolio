@@ -9,6 +9,7 @@ import {
   css,
   flask,
   reactjs,
+  redux,
   tailwind,
   nodejs,
   mongodb,
@@ -23,6 +24,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  photo
 } from "../assets";
 
 export const navLinks = [
@@ -41,29 +43,35 @@ export const navLinks = [
 ];
 
 const services = [
+  
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Fullstak Developer",
+    icon: photo,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  // {
-  //   title: "Backend Developer",
-  //   icon: backend,
-  // },
-  // {
-  //   title: "Content Creator",
-  //   icon: creator,
-  // },
+  
 ];
 
 const technologies = [
-
+  
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
   },
   {
     name: "MongoDB",
@@ -72,6 +80,10 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
   },
   {
     name: "docker",

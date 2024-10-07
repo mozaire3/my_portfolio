@@ -9,7 +9,7 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className="xs:w-[250px] w-full">
+  <Tilt className="xs:w-[400px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
@@ -26,7 +26,7 @@ const ServiceCard = ({ index, title, icon }) => (
         <img
           src={icon}
           alt="web-development"
-          className="w-16 h-16 object-contain"
+          className="object-contain"
         />
 
         <h3 className="text-white text-[20px] font-bold text-center">
@@ -47,19 +47,19 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary flex justify-between"
       >
         I'm a biologist by training, I love all things technological, I love
         programming and especially innovating, I'm gifted with great imagination
         and creativity. I'm the fullstack dev you need. Let's work together to
         bring your ideas to life!
-      </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
-      </div>
+        <div className="flex flex-wrap gap-10">
+          {services.map((service, index) => (
+            <ServiceCard key={service.title} index={index} {...service} />
+          ))}
+        </div>
+      </motion.p>
     </>
   );
 };
